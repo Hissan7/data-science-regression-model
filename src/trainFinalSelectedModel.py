@@ -42,7 +42,7 @@ def main():
         ("model", model)
     ])
 
-    # Train final model on all training data
+    # Train final model 
     pipeline.fit(X_train, y_train)
 
     # Load test data
@@ -51,7 +51,6 @@ def main():
     # Predict outcomes
     test_predictions = pipeline.predict(test_df)
 
-    # Write submission file
     submission = pd.DataFrame({
         "outcome": test_predictions
     })
