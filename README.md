@@ -134,7 +134,7 @@ python src/trainBaselineModels.py
 #### Tree based ensembles
 
 ```bash
-python src/trainTreeEnsmbles.py
+python src/trainTreeEnsembles.py
 ```
 
 #### The other gradient boosting model (XGBoost)
