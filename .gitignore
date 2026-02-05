@@ -1,0 +1,14 @@
+# Misc 
+.DS_Store
+__pycache__
+.venv/
+
+# Baseline models that were saved to joblib 
+models/
+
+# Figures outputted by EDA
+report/figures
+
+# outcomes
+
+submissions/
