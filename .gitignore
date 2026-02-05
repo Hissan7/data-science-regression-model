@@ -11,4 +11,5 @@ report/figures
 
 # outcomes
 
-submissions/
+submissions/*
+!submissions/.gitkeep
