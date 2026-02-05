@@ -8,3 +8,7 @@ models/
 
 # Figures outputted by EDA
 report/figures
+
+# outcomes
+
+submissions/
