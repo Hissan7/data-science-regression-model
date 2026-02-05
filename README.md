@@ -103,19 +103,26 @@ The final model was trained using the following hyperparameters:
 
 After cloning the repository into your machine : 
 
-### 1. Create a vritual environment 
+### 1. Brew install python
 
 ```bash
-python3 -m venv .venv
+brew install python@3.11
+```
+
+### 2. Create a virtual environment 
+
+```bash
+python3.11 -m venv .venv
 source .venv/bin/activate
 ```
-### 2. Install dependencies 
+### 3. Install dependencies 
 
 ```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 3. Run training scripts 
+### 4. Run training scripts 
 
 The final selected model was the **Gradient boosting regressor**. Run:
 
