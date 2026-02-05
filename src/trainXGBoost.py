@@ -19,7 +19,7 @@ def load_data(path: str):
 def evaluate_xgboost(df, X, y, random_state=123):
     """
     Cross-validated R^2 evaluation for XGBoost regression.
-    Uses the same preprocessing + CV setup as other model scripts for fair comparison.
+    Same preprocessing + cv setup
     """
 
     preprocessor = make_preprocessor(df)

@@ -17,7 +17,7 @@ def load_data(path: str):
 
 def evaluate_tree_ensembles(df, X, y, random_state=123):
     """
-    Compare tree-based ensemble regression models using cross-validated R^2.
+    Compare tree-based ensemble regression models using cross-validated R^2 in the hopes of getting higher R^2.
     """
 
     preprocessor = make_preprocessor(df)
