@@ -98,3 +98,60 @@ The final model was trained using the following hyperparameters:
 3. `max_depth` = 3
 4. `subsample` = 1.0 (standard, non-stochastic Gradient Boosting)
 5. `random_state` : fixed for reproducibility
+
+## Installation and setup 
+
+After cloning the repository into your machine : 
+
+### 1. Create a vritual environment 
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### 2. Install dependencies 
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run training scripts 
+
+The final selected model was the **Gradient boosting regressor**. Run:
+
+```bash
+python src/trainFinalSelectedModel.py
+```
+
+In case you want to run the other models, following commands can be run:
+
+#### Linear baseline models 
+
+```bash
+python src/trainBaselineModels.py
+```
+
+#### Tree based ensembles
+
+```bash
+python src/trainTreeEnsmbles.py
+```
+
+#### The other gradient boosting model (XGBoost)
+
+```bash
+python src/trainXGBoost.py
+```
+
+## Reproducibility 
+
+- All experiments use fixed random seeds
+- Preprocessing is performed within pipelines
+- Results can be reproduced end-to-end using the provided scripts
+
+**Hissan Omar**
+**MSci Artificial Intelligence**
+**King’s College London**
+**February 2026**
+
+Thank you for reading !
