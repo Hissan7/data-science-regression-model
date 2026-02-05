@@ -24,7 +24,7 @@ def evaluate_gradient_boosting(df, X, y, random_state=123):
 
     model = GradientBoostingRegressor(
         n_estimators=300,
-        learning_rate=0.05,
+        learning_rate=0.05,  #5 fold
         max_depth=3,
         subsample=1.0,
         random_state=random_state
