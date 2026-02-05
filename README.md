@@ -115,7 +115,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Run training scripts 
+### 3. Run training scripts 
 
 The final selected model was the **Gradient boosting regressor**. Run:
 
