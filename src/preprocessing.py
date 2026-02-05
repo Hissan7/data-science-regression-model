@@ -15,7 +15,6 @@ def make_preprocessor(df: pd.DataFrame):
     categorical_cols = df.select_dtypes(include=["object", "category"]).columns.tolist()
     numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
 
-    # Remove target from features
     if "outcome" in numeric_cols:
         numeric_cols.remove("outcome")
 
