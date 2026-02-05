@@ -149,9 +149,9 @@ python src/trainXGBoost.py
 - Preprocessing is performed within pipelines
 - Results can be reproduced end-to-end using the provided scripts
 
-**Hissan Omar**
-**MSci Artificial Intelligence**
-**King’s College London**
+**Hissan Omar** |
+**MSci Artificial Intelligence** |
+**King’s College London** |
 **February 2026**
 
 Thank you for reading !
