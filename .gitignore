@@ -6,9 +6,6 @@ __pycache__
 # Baseline models that were saved to joblib 
 models/
 
-# Figures outputted by EDA
-report/figures
-
 # outcomes
 
 submissions/*
